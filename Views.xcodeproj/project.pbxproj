@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		851B1F1720326B65004AE564 /* PaginaTres.xib in Resources */ = {isa = PBXBuildFile; fileRef = 851B1F1620326B65004AE564 /* PaginaTres.xib */; };
+		851B1F1920326D80004AE564 /* PaginaCuatro.xib in Resources */ = {isa = PBXBuildFile; fileRef = 851B1F1820326D80004AE564 /* PaginaCuatro.xib */; };
+		851B1F1B20326E0D004AE564 /* PaginaCinco.xib in Resources */ = {isa = PBXBuildFile; fileRef = 851B1F1A20326E0D004AE564 /* PaginaCinco.xib */; };
+		851B1F1F20326E4C004AE564 /* PaginaSeis.xib in Resources */ = {isa = PBXBuildFile; fileRef = 851B1F1E20326E4C004AE564 /* PaginaSeis.xib */; };
+		851B1F2120326EC0004AE564 /* PaginaSiete.xib in Resources */ = {isa = PBXBuildFile; fileRef = 851B1F2020326EC0004AE564 /* PaginaSiete.xib */; };
+		851B1F2320326F0B004AE564 /* PaginaOcho.xib in Resources */ = {isa = PBXBuildFile; fileRef = 851B1F2220326F0B004AE564 /* PaginaOcho.xib */; };
+		851B1F2520326F44004AE564 /* PaginaNueve.xib in Resources */ = {isa = PBXBuildFile; fileRef = 851B1F2420326F44004AE564 /* PaginaNueve.xib */; };
+		851B1F27203270DB004AE564 /* PaginaTres.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851B1F26203270DB004AE564 /* PaginaTres.swift */; };
+		851B1F292032714E004AE564 /* PaginaCuatro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851B1F282032714E004AE564 /* PaginaCuatro.swift */; };
+		851B1F2B2032719A004AE564 /* PaginaCinco.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851B1F2A2032719A004AE564 /* PaginaCinco.swift */; };
+		851B1F2D20327213004AE564 /* PaginaSeis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851B1F2C20327213004AE564 /* PaginaSeis.swift */; };
+		851B1F2F20327237004AE564 /* PaginaSiete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851B1F2E20327237004AE564 /* PaginaSiete.swift */; };
+		851B1F3120327258004AE564 /* PaginaOcho.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851B1F3020327258004AE564 /* PaginaOcho.swift */; };
+		851B1F3320327274004AE564 /* PaginaNueve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851B1F3220327274004AE564 /* PaginaNueve.swift */; };
 		8546B870202BB3C400986B0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8546B86F202BB3C400986B0B /* AppDelegate.swift */; };
 		8546B872202BB3C400986B0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8546B871202BB3C400986B0B /* ViewController.swift */; };
 		8546B875202BB3C400986B0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8546B873202BB3C400986B0B /* Main.storyboard */; };
@@ -14,6 +28,20 @@
 		8546B87A202BB3C400986B0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8546B878202BB3C400986B0B /* LaunchScreen.storyboard */; };
 		8546B885202BB3C400986B0B /* ViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8546B884202BB3C400986B0B /* ViewsTests.swift */; };
 		8546B890202BB3C400986B0B /* ViewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8546B88F202BB3C400986B0B /* ViewsUITests.swift */; };
+		8546B8A1202BB4E600986B0B /* PaginaUno.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8546B8A0202BB4E600986B0B /* PaginaUno.xib */; };
+		8546B8A3202BB5A900986B0B /* PaginaUno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8546B8A2202BB5A900986B0B /* PaginaUno.swift */; };
+		8546B8A5202BCB0300986B0B /* PaginaDos.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8546B8A4202BCB0300986B0B /* PaginaDos.xib */; };
+		8546B8A7202BCBC200986B0B /* PaginaDos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8546B8A6202BCBC200986B0B /* PaginaDos.swift */; };
+		8546B8A9202BD3A300986B0B /* Pagina.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8546B8A8202BD3A300986B0B /* Pagina.swift */; };
+		854D65042034F4C70027F587 /* 1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 854D64FB2034F4C70027F587 /* 1.m4a */; };
+		854D65052034F4C70027F587 /* 2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 854D64FC2034F4C70027F587 /* 2.m4a */; };
+		854D65062034F4C70027F587 /* 3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 854D64FD2034F4C70027F587 /* 3.m4a */; };
+		854D65072034F4C70027F587 /* 4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 854D64FE2034F4C70027F587 /* 4.m4a */; };
+		854D65082034F4C70027F587 /* 5.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 854D64FF2034F4C70027F587 /* 5.m4a */; };
+		854D65092034F4C70027F587 /* 6.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 854D65002034F4C70027F587 /* 6.m4a */; };
+		854D650A2034F4C70027F587 /* 7.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 854D65012034F4C70027F587 /* 7.m4a */; };
+		854D650B2034F4C70027F587 /* 8.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 854D65022034F4C70027F587 /* 8.m4a */; };
+		854D650C2034F4C70027F587 /* 9.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 854D65032034F4C70027F587 /* 9.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +62,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		851B1F1620326B65004AE564 /* PaginaTres.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaginaTres.xib; sourceTree = "<group>"; };
+		851B1F1820326D80004AE564 /* PaginaCuatro.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaginaCuatro.xib; sourceTree = "<group>"; };
+		851B1F1A20326E0D004AE564 /* PaginaCinco.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaginaCinco.xib; sourceTree = "<group>"; };
+		851B1F1E20326E4C004AE564 /* PaginaSeis.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaginaSeis.xib; sourceTree = "<group>"; };
+		851B1F2020326EC0004AE564 /* PaginaSiete.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaginaSiete.xib; sourceTree = "<group>"; };
+		851B1F2220326F0B004AE564 /* PaginaOcho.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaginaOcho.xib; sourceTree = "<group>"; };
+		851B1F2420326F44004AE564 /* PaginaNueve.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaginaNueve.xib; sourceTree = "<group>"; };
+		851B1F26203270DB004AE564 /* PaginaTres.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginaTres.swift; sourceTree = "<group>"; };
+		851B1F282032714E004AE564 /* PaginaCuatro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginaCuatro.swift; sourceTree = "<group>"; };
+		851B1F2A2032719A004AE564 /* PaginaCinco.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginaCinco.swift; sourceTree = "<group>"; };
+		851B1F2C20327213004AE564 /* PaginaSeis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginaSeis.swift; sourceTree = "<group>"; };
+		851B1F2E20327237004AE564 /* PaginaSiete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginaSiete.swift; sourceTree = "<group>"; };
+		851B1F3020327258004AE564 /* PaginaOcho.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginaOcho.swift; sourceTree = "<group>"; };
+		851B1F3220327274004AE564 /* PaginaNueve.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginaNueve.swift; sourceTree = "<group>"; };
 		8546B86C202BB3C400986B0B /* Views.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Views.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8546B86F202BB3C400986B0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8546B871202BB3C400986B0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +89,20 @@
 		8546B88B202BB3C400986B0B /* ViewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8546B88F202BB3C400986B0B /* ViewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsUITests.swift; sourceTree = "<group>"; };
 		8546B891202BB3C400986B0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8546B8A0202BB4E600986B0B /* PaginaUno.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaginaUno.xib; sourceTree = "<group>"; };
+		8546B8A2202BB5A900986B0B /* PaginaUno.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginaUno.swift; sourceTree = "<group>"; };
+		8546B8A4202BCB0300986B0B /* PaginaDos.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaginaDos.xib; sourceTree = "<group>"; };
+		8546B8A6202BCBC200986B0B /* PaginaDos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginaDos.swift; sourceTree = "<group>"; };
+		8546B8A8202BD3A300986B0B /* Pagina.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pagina.swift; sourceTree = "<group>"; };
+		854D64FB2034F4C70027F587 /* 1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.m4a; sourceTree = "<group>"; };
+		854D64FC2034F4C70027F587 /* 2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.m4a; sourceTree = "<group>"; };
+		854D64FD2034F4C70027F587 /* 3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.m4a; sourceTree = "<group>"; };
+		854D64FE2034F4C70027F587 /* 4.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 4.m4a; sourceTree = "<group>"; };
+		854D64FF2034F4C70027F587 /* 5.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 5.m4a; sourceTree = "<group>"; };
+		854D65002034F4C70027F587 /* 6.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 6.m4a; sourceTree = "<group>"; };
+		854D65012034F4C70027F587 /* 7.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 7.m4a; sourceTree = "<group>"; };
+		854D65022034F4C70027F587 /* 8.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 8.m4a; sourceTree = "<group>"; };
+		854D65032034F4C70027F587 /* 9.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 9.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +133,7 @@
 		8546B863202BB3C300986B0B = {
 			isa = PBXGroup;
 			children = (
+				854D64FA2034F4940027F587 /* Audios */,
 				8546B86E202BB3C400986B0B /* Views */,
 				8546B883202BB3C400986B0B /* ViewsTests */,
 				8546B88E202BB3C400986B0B /* ViewsUITests */,
@@ -97,11 +154,11 @@
 		8546B86E202BB3C400986B0B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8546B89F202BB3E400986B0B /* Models */,
+				8546B89E202BB3DD00986B0B /* Views */,
+				8546B89D202BB3D100986B0B /* ViewControllers */,
 				8546B86F202BB3C400986B0B /* AppDelegate.swift */,
-				8546B871202BB3C400986B0B /* ViewController.swift */,
-				8546B873202BB3C400986B0B /* Main.storyboard */,
 				8546B876202BB3C400986B0B /* Assets.xcassets */,
-				8546B878202BB3C400986B0B /* LaunchScreen.storyboard */,
 				8546B87B202BB3C400986B0B /* Info.plist */,
 			);
 			path = Views;
@@ -123,6 +180,65 @@
 				8546B891202BB3C400986B0B /* Info.plist */,
 			);
 			path = ViewsUITests;
+			sourceTree = "<group>";
+		};
+		8546B89D202BB3D100986B0B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8546B871202BB3C400986B0B /* ViewController.swift */,
+				8546B8A2202BB5A900986B0B /* PaginaUno.swift */,
+				8546B8A6202BCBC200986B0B /* PaginaDos.swift */,
+				8546B8A8202BD3A300986B0B /* Pagina.swift */,
+				851B1F26203270DB004AE564 /* PaginaTres.swift */,
+				851B1F282032714E004AE564 /* PaginaCuatro.swift */,
+				851B1F2A2032719A004AE564 /* PaginaCinco.swift */,
+				851B1F2C20327213004AE564 /* PaginaSeis.swift */,
+				851B1F2E20327237004AE564 /* PaginaSiete.swift */,
+				851B1F3020327258004AE564 /* PaginaOcho.swift */,
+				851B1F3220327274004AE564 /* PaginaNueve.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8546B89E202BB3DD00986B0B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8546B873202BB3C400986B0B /* Main.storyboard */,
+				8546B878202BB3C400986B0B /* LaunchScreen.storyboard */,
+				8546B8A0202BB4E600986B0B /* PaginaUno.xib */,
+				8546B8A4202BCB0300986B0B /* PaginaDos.xib */,
+				851B1F1620326B65004AE564 /* PaginaTres.xib */,
+				851B1F1820326D80004AE564 /* PaginaCuatro.xib */,
+				851B1F1A20326E0D004AE564 /* PaginaCinco.xib */,
+				851B1F1E20326E4C004AE564 /* PaginaSeis.xib */,
+				851B1F2020326EC0004AE564 /* PaginaSiete.xib */,
+				851B1F2220326F0B004AE564 /* PaginaOcho.xib */,
+				851B1F2420326F44004AE564 /* PaginaNueve.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		8546B89F202BB3E400986B0B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		854D64FA2034F4940027F587 /* Audios */ = {
+			isa = PBXGroup;
+			children = (
+				854D64FB2034F4C70027F587 /* 1.m4a */,
+				854D64FC2034F4C70027F587 /* 2.m4a */,
+				854D64FD2034F4C70027F587 /* 3.m4a */,
+				854D64FE2034F4C70027F587 /* 4.m4a */,
+				854D64FF2034F4C70027F587 /* 5.m4a */,
+				854D65002034F4C70027F587 /* 6.m4a */,
+				854D65012034F4C70027F587 /* 7.m4a */,
+				854D65022034F4C70027F587 /* 8.m4a */,
+				854D65032034F4C70027F587 /* 9.m4a */,
+			);
+			name = Audios;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +348,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8546B8A1202BB4E600986B0B /* PaginaUno.xib in Resources */,
+				851B1F1920326D80004AE564 /* PaginaCuatro.xib in Resources */,
+				854D650A2034F4C70027F587 /* 7.m4a in Resources */,
+				851B1F2120326EC0004AE564 /* PaginaSiete.xib in Resources */,
+				854D65082034F4C70027F587 /* 5.m4a in Resources */,
+				854D65062034F4C70027F587 /* 3.m4a in Resources */,
+				851B1F1F20326E4C004AE564 /* PaginaSeis.xib in Resources */,
+				854D65042034F4C70027F587 /* 1.m4a in Resources */,
 				8546B87A202BB3C400986B0B /* LaunchScreen.storyboard in Resources */,
+				854D650C2034F4C70027F587 /* 9.m4a in Resources */,
 				8546B877202BB3C400986B0B /* Assets.xcassets in Resources */,
+				854D65092034F4C70027F587 /* 6.m4a in Resources */,
+				851B1F1B20326E0D004AE564 /* PaginaCinco.xib in Resources */,
+				854D65072034F4C70027F587 /* 4.m4a in Resources */,
+				854D650B2034F4C70027F587 /* 8.m4a in Resources */,
+				8546B8A5202BCB0300986B0B /* PaginaDos.xib in Resources */,
+				854D65052034F4C70027F587 /* 2.m4a in Resources */,
 				8546B875202BB3C400986B0B /* Main.storyboard in Resources */,
+				851B1F1720326B65004AE564 /* PaginaTres.xib in Resources */,
+				851B1F2320326F0B004AE564 /* PaginaOcho.xib in Resources */,
+				851B1F2520326F44004AE564 /* PaginaNueve.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +393,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				851B1F2F20327237004AE564 /* PaginaSiete.swift in Sources */,
+				851B1F2B2032719A004AE564 /* PaginaCinco.swift in Sources */,
+				8546B8A7202BCBC200986B0B /* PaginaDos.swift in Sources */,
+				851B1F3320327274004AE564 /* PaginaNueve.swift in Sources */,
+				8546B8A9202BD3A300986B0B /* Pagina.swift in Sources */,
 				8546B872202BB3C400986B0B /* ViewController.swift in Sources */,
+				851B1F3120327258004AE564 /* PaginaOcho.swift in Sources */,
+				851B1F2D20327213004AE564 /* PaginaSeis.swift in Sources */,
+				8546B8A3202BB5A900986B0B /* PaginaUno.swift in Sources */,
+				851B1F292032714E004AE564 /* PaginaCuatro.swift in Sources */,
 				8546B870202BB3C400986B0B /* AppDelegate.swift in Sources */,
+				851B1F27203270DB004AE564 /* PaginaTres.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +649,7 @@
 				8546B896202BB3C400986B0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8546B897202BB3C400986B0B /* Build configuration list for PBXNativeTarget "ViewsTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +658,7 @@
 				8546B899202BB3C400986B0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8546B89A202BB3C400986B0B /* Build configuration list for PBXNativeTarget "ViewsUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +667,7 @@
 				8546B89C202BB3C400986B0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

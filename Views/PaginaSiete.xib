@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PaginaSiete" customModule="Views" customModuleProvider="target">
+            <connections>
+                <outlet property="cloud" destination="bw6-jc-lBj" id="MLg-7e-YGU"/>
+                <outlet property="vwContenedor" destination="iN0-l3-epB" id="0Fv-5U-JFy"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="lot-lS-p8L">
+                    <rect key="frame" x="0.0" y="401" width="1017" height="390"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <string key="text">El lobo estaba cada vez más hambriento así que sopló y sopló con todas sus fuerzas, pero esta vez no tenía nada que hacer porque la casa no se movía ni siquiera un poco. Dentro los cerditos celebraban la resistencia de la casa de su hermano y cantaban alegres por haberse librado del lobo:
+
+Los tres cerditos- ¿Quien teme al lobo feroz? ¡No, no, no!</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plains_by_oceansdream" translatesAutoresizingMaskIntoConstraints="NO" id="4pP-GN-6Y2">
+                    <rect key="frame" x="179" y="0.0" width="666" height="381"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Casa Ladrillo" translatesAutoresizingMaskIntoConstraints="NO" id="dW8-Fk-Eqy">
+                    <rect key="frame" x="462" y="202" width="240" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lobito clone" translatesAutoresizingMaskIntoConstraints="NO" id="liS-2p-1DE">
+                    <rect key="frame" x="352" y="212" width="240" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cloud" translatesAutoresizingMaskIntoConstraints="NO" id="bw6-jc-lBj">
+                    <rect key="frame" x="515" y="38" width="240" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="DXa-bq-MdP" appends="YES" id="Ehi-c2-MRk"/>
+                    </connections>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.7375124982748269" green="0.77182671536232106" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+        </view>
+        <tapGestureRecognizer id="DXa-bq-MdP">
+            <connections>
+                <action selector="dotap:" destination="-1" id="hkw-oG-r5W"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="Casa Ladrillo" width="96" height="96"/>
+        <image name="Lobito clone" width="48" height="48"/>
+        <image name="cloud" width="800" height="421"/>
+        <image name="plains_by_oceansdream" width="320" height="240"/>
+    </resources>
+</document>

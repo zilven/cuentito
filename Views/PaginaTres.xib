@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PaginaTres" customModule="Views" customModuleProvider="target">
+            <connections>
+                <outlet property="cloud" destination="b59-P4-fF4" id="aD6-UR-e9w"/>
+                <outlet property="vwContenedor" destination="iN0-l3-epB" id="R4v-9h-8pv"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plains_by_oceansdream" translatesAutoresizingMaskIntoConstraints="NO" id="ryK-Rd-XL3">
+                    <rect key="frame" x="183" y="0.0" width="666" height="381"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Casa Madera" translatesAutoresizingMaskIntoConstraints="NO" id="fg9-DR-Dkl">
+                    <rect key="frame" x="469" y="205" width="240" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cochinito1" translatesAutoresizingMaskIntoConstraints="NO" id="RVf-bO-zRc">
+                    <rect key="frame" x="305" y="205" width="240" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="88b-wf-Fd6">
+                    <rect key="frame" x="8" y="416" width="1016" height="352"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <string key="text">El mediano prefirió construirla de madera, que era más resistente que la paja y tampoco le llevaría mucho tiempo hacerla. Pero el mayor pensó que aunque tardara más que sus hermanos, lo mejor era hacer una casa resistente y fuerte con ladrillos.
+
+- Además así podré hacer una chimenea con la que calentarme en invierno, pensó el cerdito.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cloud" translatesAutoresizingMaskIntoConstraints="NO" id="b59-P4-fF4">
+                    <rect key="frame" x="392" y="0.0" width="240" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="a2B-bO-diY" appends="YES" id="mhi-9W-yMD"/>
+                    </connections>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.7337047258780468" green="0.7708299632005513" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+        </view>
+        <tapGestureRecognizer id="a2B-bO-diY">
+            <connections>
+                <action selector="dotap:" destination="-1" id="63H-zz-9Yu"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="Casa Madera" width="96" height="96"/>
+        <image name="Cochinito1" width="48" height="48"/>
+        <image name="cloud" width="800" height="421"/>
+        <image name="plains_by_oceansdream" width="320" height="240"/>
+    </resources>
+</document>

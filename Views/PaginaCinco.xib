@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PaginaCinco" customModule="Views" customModuleProvider="target">
+            <connections>
+                <outlet property="hou" destination="6Ta-9E-BQu" id="FGk-pP-TpS"/>
+                <outlet property="vwContenedor" destination="iN0-l3-epB" id="bUG-Rn-cKV"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plains_by_oceansdream" translatesAutoresizingMaskIntoConstraints="NO" id="Njl-y0-kg0">
+                    <rect key="frame" x="165" y="162" width="666" height="381"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Casa de paja clone" translatesAutoresizingMaskIntoConstraints="NO" id="6Ta-9E-BQu">
+                    <rect key="frame" x="454" y="351" width="240" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="TtR-ub-ez3" appends="YES" id="Oty-4G-j7B"/>
+                    </connections>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lobito clone" translatesAutoresizingMaskIntoConstraints="NO" id="JCI-Y7-cGg">
+                    <rect key="frame" x="331" y="366" width="240" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.73975883837917145" green="0.77956204821041086" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+        </view>
+        <tapGestureRecognizer id="TtR-ub-ez3">
+            <connections>
+                <action selector="house:" destination="-1" id="fr7-nQ-oCX"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="Casa de paja clone" width="96" height="96"/>
+        <image name="Lobito clone" width="48" height="48"/>
+        <image name="plains_by_oceansdream" width="320" height="240"/>
+    </resources>
+</document>
